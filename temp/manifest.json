@@ -1,0 +1,48 @@
+{
+  "$schema": "https://developer.microsoft.com/en-us/json-schemas/teams/v1.8/MicrosoftTeams.schema.json",
+  "manifestVersion": "1.8",
+  "id": "6c4bc2c0-423f-11ec-96eb-3d0941dd95b5",
+  "version": "0.0.1",
+  "packageName": "teamstab",
+  "developer": {
+    "name": "Franco3010",
+    "websiteUrl": "https://6d3d-14-177-240-141.ngrok.io",
+    "privacyUrl": "https://6d3d-14-177-240-141.ngrok.io/privacy.html",
+    "termsOfUseUrl": "https://6d3d-14-177-240-141.ngrok.io/tou.html"
+  },
+  "name": {
+    "short": "teams tab",
+    "full": "teams tab"
+  },
+  "description": {
+    "short": "TODO: add short description here",
+    "full": "TODO: add full description here"
+  },
+  "icons": {
+    "outline": "icon-outline.png",
+    "color": "icon-color.png"
+  },
+  "accentColor": "#D85028",
+  "configurableTabs": [],
+  "staticTabs": [
+    {
+      "entityId": "c1f3ec52-5c49-4e30-bd78-207e29a8c54b",
+      "name": "teams tab Tab",
+      "contentUrl": "https://6d3d-14-177-240-141.ngrok.io/teamsTabTab/?name={loginHint}&tenant={tid}&theme={theme}",
+      "scopes": [
+        "personal"
+      ]
+    }
+  ],
+  "bots": [],
+  "connectors": [],
+  "composeExtensions": [],
+  "permissions": [
+    "identity",
+    "messageTeamMembers"
+  ],
+  "validDomains": [
+    "6d3d-14-177-240-141.ngrok.io"
+  ],
+  "showLoadingIndicator": false
+}
